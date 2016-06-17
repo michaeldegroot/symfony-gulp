@@ -1,0 +1,29 @@
+{
+  "name": "symfony-gulp",
+  "version": "1.0.0",
+  "description": "Use gulp to handle symfony assets",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaeldegroot/symfony-gulp.git"
+  },
+  "keywords": [
+    "symfony",
+    "assets",
+    "assetic",
+    "gulp",
+    "js",
+    "css",
+    "minify",
+    "concat"
+  ],
+  "author": "Michael de Groot <specamps@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaeldegroot/symfony-gulp/issues"
+  },
+  "homepage": "https://github.com/michaeldegroot/symfony-gulp#readme"
+}
