@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "Use gulp to handle symfony assets",
   "main": "lib/main.js",
+  "preferGlobal": "true",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "symfony-gulp": "bin/test-module.js"
   },
   "repository": {
     "type": "git",
