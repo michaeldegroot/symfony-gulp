@@ -16,14 +16,14 @@ Now you have activated the default task, which is to rebuild all
 #### jsfiles task
  - `symgulp jsfiles [bundle]`
 
-*Get all javascript files from a given bundle, if no bundle is given **ALL** javascript files will be retrieved.*
+*Get all javascript files from a given bundle, if no bundle is given ALL javascript files will be retrieved.*
 
 ## Features
 
  -    Build symfony assets parallel with gulp
  -    Easily minify and concat JS & CSS files
  -    Can watch for changes and automatically rebuild
- -    Know what files you use in your html.twig files
+ -    Knows what files you use in your html.twig files
 
 ## Known issues
 https://github.com/michaeldegroot/symfony-gulp/issues
