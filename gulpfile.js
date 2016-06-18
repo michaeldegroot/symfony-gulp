@@ -8,13 +8,19 @@ gulp.task('default', () => {
     'lib/**/*',
   ], {debounceDelay: 2000}, (() => {
     console.log('Files changed, reinstalling globally')
-    const exec = require('child_process').exec
-    const child = exec('npm install -g', (error, stdout, stderr) => {
-      if (error) {
-        throw new Error(error)
-      } else {
-        console.log('Done!')
-      }
-    })
+    reinstall()
   }))
 })
+
+const reinstall = () => {
+  const exec = require('child_process').exec
+  const child = exec('npm install -g', (error, stdout, stderr) => {
+    if (error) {
+      throw new Error(error)
+    } else {
+      console.log('Done!')
+    }
+  })
+}
+
+reinstall()

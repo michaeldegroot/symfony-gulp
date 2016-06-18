@@ -32,7 +32,9 @@
   "homepage": "https://github.com/michaeldegroot/symfony-gulp#readme",
   "dependencies": {
     "async": "^2.0.0-rc.6",
-    "glob": "^7.0.4"
+    "directory-tree": "^1.0.0",
+    "glob": "^7.0.4",
+    "moment": "^2.13.0"
   },
   "devDependencies": {
     "exec": "^0.2.1",
