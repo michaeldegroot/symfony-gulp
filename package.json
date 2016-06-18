@@ -1,5 +1,5 @@
 {
-  "name": "symfony-gulp",
+  "name": "symgulp",
   "version": "1.0.0",
   "description": "Use gulp to handle symfony assets",
   "main": "lib/main.js",
@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "symfony-gulp": "bin/test-module.js"
+    "symgulp": "bin/test-module.js"
   },
   "repository": {
     "type": "git",
@@ -29,5 +29,15 @@
   "bugs": {
     "url": "https://github.com/michaeldegroot/symfony-gulp/issues"
   },
-  "homepage": "https://github.com/michaeldegroot/symfony-gulp#readme"
+  "homepage": "https://github.com/michaeldegroot/symfony-gulp#readme",
+  "dependencies": {
+    "async": "^2.0.0-rc.6",
+    "glob": "^7.0.4"
+  },
+  "devDependencies": {
+    "exec": "^0.2.1",
+    "gulp": "^3.9.1",
+    "gulp-watch": "^4.3.6",
+    "npm": "^3.9.6"
+  }
 }
