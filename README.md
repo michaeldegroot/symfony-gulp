@@ -15,7 +15,7 @@ Simplify your symfony project by automating your concat and minify workflow
 
 `npm install symfony-gulp -g`
 
-## How to use symgulp
+## How to use symfony-gulp
 
 1. Install symfony-gulp
 2. Go to your symfony project root folder
