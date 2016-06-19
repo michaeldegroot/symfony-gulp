@@ -36,6 +36,7 @@
     "cli-color": "^1.1.0",
     "glob": "^7.0.4",
     "inquirer": "^1.0.3",
+    "jsonfile": "^2.3.1",
     "moment": "^2.13.0",
     "update-notifier": "^1.0.1"
   },
