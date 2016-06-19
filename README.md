@@ -6,10 +6,12 @@ Simplify your symfony project by automating your concat and minify workflow
 
 ## Features
 
- -  Build symfony assets parallel with gulp
- -  Easily minify and concat JS & CSS files
- -  Can watch for changes and automatically rebuild
- -  Knows what files you use in your html.twig files
+ -  ~~Build symfony assets parallel with gulp~~ **Not yet available**
+ -  ~~Easily minify and concat JS & CSS files~~ **Not yet available**
+ -  ~~Can watch for changes and automatically rebuild~~ **Not yet available**
+ -  ~~Asks you to generate a symfony-gulp file by showing you what files to use for concat and minify~~ **Not yet available**
+ -  Can list all resources (js, css) you use in your html.twig files in a specific bundle or overall project
+ -  Can list all js or css files stored in a specific bundle or overall project
 
 ## Installation
 
