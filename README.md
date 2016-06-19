@@ -21,6 +21,8 @@ Simplify your symfony project by automating your concat and minify workflow
 2. Go to your symfony project root folder
 3. Excute a task!
 
+
+
 #### default task
 
 - `symgulp`

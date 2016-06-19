@@ -1,5 +1,5 @@
 {
-  "name": "symgulp",
+  "name": "symfony-gulp",
   "version": "0.0.1",
   "description": "Simplify your symfony project by automating your concat and minify workflow",
   "main": "lib/main.js",
