@@ -48,20 +48,10 @@ Now you have activated the default task, which is to rebuild all
 
 #### resource task
 
- - `symgulp resource [bundle]`
+ - `symgulp resource js/css [bundle]`
 
-*Lists all resources (js, css) in use by templates.*
-*Can specify a bundle, if no bundle is speficied ALL bundles will be used*
-
-#### js task
-
- - `symgulp js [bundle]`
-
-*Get all javascript files from a given bundle, if no bundle is given ALL javascript files will be retrieved.*
-
-#### css task
-
- - `symgulp css [bundle]`
+*Lists all resources (js or css) in use by specified bundle.*
+*Can specify a bundle, if no bundle is specified ALL bundles will be used*
 
 *Get all stylesheet files from a given bundle, if no bundle is given ALL stylesheet files will be retrieved.*
 
