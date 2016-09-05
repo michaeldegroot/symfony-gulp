@@ -1,2 +1,3 @@
 #!/usr/bin/env node
-var lib = require('../lib/main.js')
+var path = require('path')
+var lib  = require(path.join('../', 'lib', 'main.js'))
