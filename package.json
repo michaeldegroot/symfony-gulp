@@ -1,6 +1,6 @@
 {
   "name": "symfony-gulp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simplify your symfony project by automating your concat and minify workflow",
   "main": "lib/main.js",
   "preferGlobal": "true",
